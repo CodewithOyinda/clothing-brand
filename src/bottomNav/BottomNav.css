@@ -1,0 +1,37 @@
+.container{
+    background-color: #fef3ff;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.flex h2 {
+    font-weight: 400;
+    font-size: 30px;
+    
+}
+.find-us {
+    font-weight: 400;
+}
+.socials {
+   display: flex;
+   gap: 1rem;
+   padding-top: 20px;
+}
+.useful-links {
+    font-size: 15px;
+}
+.info {
+    font-size: 15px;
+    font-weight: 500;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-top: 1px solid #e5e7eb;
+}

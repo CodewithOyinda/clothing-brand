@@ -1,0 +1,123 @@
+.about-brand {
+    display: flex;
+    padding-top: 70px;
+}
+.about-brand h4 {
+    color: #9ca3b7;
+    font-weight: 500;
+}
+.about-brand h3 {
+    color: #9ca3b7;
+    font-weight: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    
+}
+.details {
+    padding-top: 70px;
+    margin-left: 30px;
+    line-height: 50px;
+}
+.details-flex {
+    display: flex;
+    align-items: normal;
+}
+.arrow-details {
+    display: flex;
+    
+}
+.arrow-details h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.explore {
+    width: 230px;
+    height:50px ;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 15px;
+}
+.request {
+    width: 200px;
+    height: 50px;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #febaf0, #f492fc, #D67dff);
+    border-image-slice: 1;
+    border-radius: 0.2rem;
+}
+.btn {
+    display: flex;
+    gap: 2rem;
+    padding-top: 50px;
+}
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+}
+.exclusive-text {
+    background: linear-gradient(to right,#febaf0, #f492fc, #D67dff);
+    background-clip: text;
+    color: transparent;
+  }
+.exclusive-heading span {
+    color: inherit;
+  }
+.arrow-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.search-input {
+    width:400px ;
+    height:50px;
+    background-color: #f3f4f6;
+    padding: 30px;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 15px;
+}
+.explore-now {
+    width: 180px;
+    height:40px ;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 15px;
+     
+}
+.category {
+   margin-bottom: 60px; 
+
+}
+.section-1, .section-2, .section-3, .section-4, .section-5, .section-6, .section-7 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+
+}
+.images button {
+    background-image: linear-gradient(43deg, #efe7f7 0%, #f0e1f3 46%, #eff0fd 100%);
+    border: none;
+    border-radius: 0.2rem;
+    width: 90px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.price h4 {
+    color: #9ca3b7;
+    font-weight:500;
+}
