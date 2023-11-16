@@ -72,6 +72,7 @@ class Login extends Component {
                 <Box width={700}>
                 <TextField
                   label="Email"
+                  className='email'
                   color="secondary"
                   onChange={this.handleChange}
                   fullWidth

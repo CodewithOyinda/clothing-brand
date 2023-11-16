@@ -72,7 +72,7 @@ class SignUp extends Component {
               <h1>SIGN UP</h1>
               <form onSubmit={this.handleSubmit}>
                 <Stack spacing={4}>
-                  <Box width={700}>
+                  <Box width={600}>
                 <TextField
                     label="Full name"
                     color="secondary"
@@ -86,7 +86,7 @@ class SignUp extends Component {
                   />
                   </Box>
                   <br />
-                  <Box  width={700}>
+                  <Box  width={600}>
                   <TextField
                     label="Email"
                     color="secondary"
@@ -100,7 +100,7 @@ class SignUp extends Component {
                   />
                   </Box>
                   <br />
-                  <Box  width={700}>
+                  <Box  width={600}>
                   <TextField
                     label="Password"
                     color="secondary"
