@@ -3,8 +3,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 130px;
     padding-bottom: 70px;
+}
+.about-us h1 {
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.about-us p {
+    font-size: 20px;
 }
 .niche {
     display: flex;
@@ -12,6 +19,23 @@
     margin-right: 30px;
     background-color: #fef3ff;
     border-radius: 0.2rem;
+}
+.niche-details  {
+    width: 600px;
+    padding-top: 60px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    padding-left: 70px;
+}
+.niche-details h1 {
+    font-weight: 400;
+    width: 200px
+}
+.niche-details p {
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .flex-box {
     display: flex;
@@ -23,7 +47,7 @@
     padding-bottom: 50px;
 }
 .box-1 {
-    width: 500px;
+    width: 370px;
     height: 120px;
     border: 2px solid;
     border-image: linear-gradient(to right, #febaf0, #f492fc, #D67dff);
@@ -36,7 +60,7 @@
     padding-right: 10px;
 }
 .box-2 {
-    width: 500px;
+    width: 370px;
     height: 120px;
     border: 2px solid;
     border-image: linear-gradient(to right, #febaf0, #f492fc, #D67dff);

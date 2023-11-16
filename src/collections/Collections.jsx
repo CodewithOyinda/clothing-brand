@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import lady from './img/Lady.png'
 import ImgOne from './img/Image-1.jpeg'
 import ImgTwo from './img/Image-2.jpeg'
@@ -23,11 +23,19 @@ import ImgTwentyone from './img/Image-21.webp'
 import arrow from './img/kindpng_129879.png'
 import '../collections/Collections.css'
 import {BiSearch} from 'react-icons/bi';
-import { Nav } from '../nav/Nav'
-import BottomNav from '../bottomNav/BottomNav'
+import Nav from '../nav/Nav';
+import BottomNav from '../bottomNav/BottomNav';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom'
 // import flame from './img/flame.png'
 
 const Collections = () => {
+
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <div>
       <Nav/>
@@ -59,14 +67,16 @@ const Collections = () => {
         </div>
         <div className='images'>
           <div className='section-1'>
+            <Link to='/itemone'>
            <div>
-            <img src={ImgOne} alt='imgone' style={{width:'350px', height:'410px', borderRadius:'0.3rem'}}/>
+            <img src={ImgOne} alt='imgone' style={{width:'350px', height:'410px', borderRadius:'0.3rem'}} />
             <div className='price'>
             <div><h3>Long Sleeve Jacket</h3>
             <h4>women</h4></div>
             <button>$150</button>
             </div>
            </div>
+           </Link>
            <div>
            <img src={ImgTwo} alt='imgtwo' style={{width:'350px', height:'410px', borderRadius:'0.3rem'}}/>
            <div className='price'>
@@ -232,8 +242,9 @@ const Collections = () => {
             </div>
            </div>
           </div>
-          <BottomNav/>
+          
         </div>
+        <BottomNav/>
     </div>
   )
 }

@@ -1,12 +1,14 @@
 .container{
     background-color: #fef3ff;
+    height: 250px;
+    width: 100%;
 }
 .flex {
     display: flex;
     justify-content: space-between;
-    height: 150px;
-    margin-left: 30px;
-    padding-top: 20px;
+    
+    padding: 30px;
+    /* padding-top: 20px; */
 }
 .flex h2 {
     font-weight: 400;
@@ -34,4 +36,36 @@
     align-items: center;
     height: 70px;
     border-top: 1px solid #e5e7eb;
+}
+@media (min-width: 992px) {
+   
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+      }
+      .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        gap: 1.5rem;
+      }
+}
+
+@media (max-width: 767px){
+  .container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 1.5rem;
+  }
 }
